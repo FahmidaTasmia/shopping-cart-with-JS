@@ -42,70 +42,112 @@
     <!-- navigation end  -->
 
     <!-- card body start -->
-    <section class="w-9/12 mx-auto mt-12 pb-40">
-        <div class="grid grid-cols-2  gap-4 devide-x">
-            <div class="grid grid-cols-2 gap-4 ">
-                <div class="card card-compact w-full bg-base-100 shadow-xl">
-                    <figure><img src="images/coffee.jpg" class="w-full" alt="Shoes" /></figure>
-                    <div class="card-body">
-                      <h2 class="card-title">Coffee!</h2>
-                      <p>price:$ <span>100</span></p>
-                      <div class="card-actions justify-end">
-                        <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
+    <main class="w-9/12 mx-auto mt-5 pb-20">
+      <div class="grid grid-cols-2 gap-4 divide-x">
+          <div class="grid grid-cols-2 gap-4">
+              <!-- product 1 -->
+              <div>
+                  <div class="card card-compact w-full bg-base-100 shadow-xl">
+                      <figure><img src="images/coffee.jpg" alt="Shoes" class="w-full h-40"/></figure>
+                      <div class="card-body">
+                          <h2 class="card-title">Coffee!</h2>
+                          <p>
+                              Price: $ <span>108</span>
+                          </p>
+                          <div class="card-actions justify-end">
+                              <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
+                          </div>
                       </div>
-                    </div>
                   </div>
-                <!-- ... -->
-                <div class="card card-compact w-full bg-base-100 shadow-xl">
-                    <figure><img src="images/chocolate.jpg" class="w-full " alt="Shoes" /></figure>
-                    <div class="card-body">
-                      <h2 class="card-title">chocolate!</h2>
-                      <p>price:$ <span>130</span></p>
-                      <div class="card-actions justify-end">
-                        <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
-                      </div>
-                    </div>
-                  </div>
-                <!-- ... -->
-                <div class="card card-compact w-full bg-base-100 shadow-xl">
-                    <figure><img src="images/mug.jpg" class="w-full" alt="Shoes" /></figure>
-                    <div class="card-body">
-                      <h2 class="card-title">Mug!</h2>
-                      <p>price:$ <span>110</span></p>
-                      <div class="card-actions justify-end">
-                        <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
-                      </div>
-                    </div>
-                  </div>
-                <!-- ... -->
-                <div class="card card-compact w-full bg-base-100 shadow-xl">
-                    <figure><img src="images/perfume.jpg" class="w-full" alt="Shoes" /></figure>
-                    <div class="card-body">
-                      <h2 class="card-title">perfume!</h2>
-                      <p>price:$ <span>350</span></p>
-                      <div class="card-actions justify-end">
-                        <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
-                      </div>
-                    </div>
-                  </div>
-                <!-- ... -->
-                <div class="card card-compact w-full bg-base-100 shadow-xl">
-                    <figure><img src="images/umbrella.jpg" class="w-full" alt="Shoes" /></figure>
-                    <div class="card-body">
-                      <h2 class="card-title">umbrella!</h2>
-                      <p>price:$ <span>80</span></p>
-                      <div class="card-actions justify-end">
-                        <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
-                      </div>
-                    </div>
-                  </div>
-                <!-- ... -->
-              
               </div>
-            <div>Products card</div>
-        </div>
-    </section>
-    <!-- card body end -->
+              <!-- product 2 -->
+              <div>
+                  <div class="card card-compact w-full bg-base-100 shadow-xl">
+                      <figure><img src="images/chocolate.jpg" alt="Shoes" class="w-full h-40"/></figure>
+                      <div class="card-body">
+                          <h2 class="card-title">Chocolate!</h2>
+                          <p>
+                              Price: $ <span>113</span>
+                          </p>
+                          <div class="card-actions justify-end">
+                              <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- product 3 -->
+              <div>
+                  <div class="card card-compact w-full bg-base-100 shadow-xl">
+                      <figure><img src="images/mug.jpg" alt="Shoes" class="w-full h-40"/></figure>
+                      <div class="card-body">
+                          <h2 class="card-title">Mug!</h2>
+                          <p>
+                              Price: $ <span>112</span>
+                          </p>
+                          <div class="card-actions justify-end">
+                              <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- product 4 -->
+              <div>
+                  <div class="card card-compact w-full bg-base-100 shadow-xl">
+                      <figure><img src="images/perfume.jpg" alt="Shoes" class="w-full h-40"/></figure>
+                      <div class="card-body">
+                          <h2 class="card-title">perfume!</h2>
+                          <p>
+                              Price: $ <span>105</span>
+                          </p>
+                          <div class="card-actions justify-end">
+                              <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- product 5 -->
+              <div>
+                  <div class="card card-compact w-full bg-base-100 shadow-xl">
+                      <figure><img src="images/umbrella.jpg" alt="Shoes" class="w-full h-40"/></figure>
+                      <div class="card-body">
+                          <h2 class="card-title">Umbrella</h2>
+                          <p>
+                              Price: $ <span>125</span>
+                          </p>
+                          <div class="card-actions justify-end">
+                              <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- CART -->
+          <div>
+              <p class="text-4xl text-center">Total added Products <span id="total-products" class="text-blue-500">0</span>
+              </p>
+              <div class="overflow-x-auto">
+                  <table class="table table-zebra w-full">
+                    <!-- head -->
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                      </tr>
+                    </thead>
+                    <tbody id="products-cart">
+                      <!-- <tr>
+                          <th>1</th>
+                          <td>Cy Ganderton</td>
+                          <td>Quality Control Specialist</td>
+                        </tr> -->
+                    </tbody>
+                  </table>
+                </div>
+          </div>
+      </div>
+  </main>
+   
 
 
    <script src="js/shopping.js"></script> 
